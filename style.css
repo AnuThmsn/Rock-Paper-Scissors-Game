@@ -5,15 +5,21 @@
 body{
     background-color: #091b3e;
     color: #ffffff;
-    font-family: Garamond, serif;
     margin: 0;
     padding: 20px;
+    font-family:Arial, Helvetica, sans-serif
 }
 .title{
+    .press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+    font-family: "Press Start 2P", system-ui;
     color: #ffffff;
     font-size: 1.5em;
     text-align: center;
-    margin-top: 20px;
+    padding: 10px;
 }
 
 img{
@@ -38,7 +44,45 @@ img{
     opacity:0.5;
     cursor:pointer;
 }
-.reuslt div{
+.score{
     display: flex;
-    justify-content:center;;
+    justify-content:center;
+    
+}
+.user-score{
+    text-align:center;
+    border-right:1px solid #ffffff;
+    padding:20px 50px 20px 50px;
+    
+}
+.comp-score{
+    text-align:center;
+    padding:20px 50px 20px 50px;
+    
+}
+.winner{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: 20px;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.reset-button{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+    color: #091b3e;
+    border-radius: 12px;
+    padding: 10px 30px;
+    font-size: 3em;
+    cursor:pointer;
+    
+}
+.reset-button:hover{
+    color:#aa1010;
 }

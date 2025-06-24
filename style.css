@@ -51,7 +51,7 @@ img{
 }
 .user-score{
     text-align:center;
-    border-right:1px solid #ffffff;
+ 
     padding:20px 50px 20px 50px;
     
 }
@@ -78,11 +78,28 @@ img{
     background-color: #ffffff;
     color: #091b3e;
     border-radius: 12px;
-    padding: 10px 30px;
-    font-size: 3em;
+    padding: 8px 50px;
+    font-size: 1.8em;
     cursor:pointer;
     
 }
 .reset-button:hover{
-    color:#aa1010;
+    border: 3px solid #ffffff;
+    background-color: #af0505;
+    color:#f6f4f4;
+}
+.play{
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+    color: #091b3e;
+    border-radius: 12px;
+    padding: 10px 60px;
+    font-size: 3em;
+    cursor:pointer;
 }

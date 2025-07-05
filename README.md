@@ -24,6 +24,9 @@ This is a simple **Rock-Paper-Scissors** game built using **HTML**, **CSS**, and
 - **CSS3**: Styling the game elements and layout.
 - **JavaScript**: Handling the game logic and interactivity.
 
+## Deployed Version
+-Play the game live here: [Rock-Paper-Scissors Game](https://anuthmsn.github.io/Rock-Paper-Scissors-Game/)
+
 ## How to Run the Game Locally
 1. Clone this repository:
    ```bash
